@@ -7,98 +7,106 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/celPhone.css">
 </head>
 <body>
-    <header>
+    <header class="container">
         <h1>The Dev News</h1>
     </header>
     <main class="container">
-        <section id="first-story">
-            <div>
-                <span>opinião</span>
-                <h2>Como é ser um desenvolvedor</h2>
-                <span>By Fabio Tetsuo</span>
-            </div>
-
-            <article id="popular-posts">
-                <h2>Posts populares</h2>
-                <div>
-                    <img src="" alt="">
-                    <div>
-                        <h3>Desevolvimento atual</h3>
-                        <span>22 Agosto 2022</span>
-                    </div>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <div>
-                        <h3>GitLab vs GitHub</h3>
-                        <span>22 Agosto 2022</span>
-                    </div>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <div>
-                        <h3>Café atrapalha</h3>
-                        <span>22 Agosto 2022</span>
-                    </div>
-                </div>
-            </article>
-
-        </section>
-
+        <div class="initial-presentation">
+            <img src="./assets/img/banner article.png" alt="">
+        </div>
         <section id="recent-posts">
-            <h2></h2>
-
+            <div class="recent-more-posts">
+                <h2>Posts mais recentes </h2>
+                <a>Ver todos</a>
+            </div>    
             <article class="recent-posts-container">
-                <div class="recent-posts-itens">
-                    <img src="" alt="">
-                    <span></span>
-                    <h3></h3>
-                    <span></span>
-                    <p></p>
-                    <span></span>
+                <div class="card">
+                    <img src="./assets/img/banner image.png" alt="">
+                    <div class="card-details">
+                        <span>desenvolvimento</span>
+                        <h3>Desenvolvimento mobile</h3>
+                        <span><b>By</b> Fabio Tetsuo</span>
+                        <p>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p>
+                        <span>22 Agosto 2022</span>
+                    </div>
                 </div>
 
-                <div class="recent-posts-itens">
-                    <img src="" alt="">
-                    <span></span>
-                    <h3></h3>
-                    <span></span>
-                    <p></p>
-                    <span></span>
+                <div class="card">
+                    <img src="./assets/img/banner image (1).png" alt="">
+                    <div class="card-details">
+                        <span>saude</span>
+                        <h3>Balancear vida profissional e pessoal</h3>
+                        <span><b>By</b> Tdho Satriawan</span>
+                        <p>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p>
+                        <span>22 Agosto 2022</span>
+                    </div>
                 </div>
 
-                <div class="recent-posts-itens">
-                    <img src="" alt="">
-                    <span></span>
-                    <h3></h3>
-                    <span></span>
-                    <p></p>
-                    <span></span>
+                <div class="card">
+                    <img src="./assets/img/banner image (2).png" alt="">
+                    <div class="card-details">
+                        <span>desenvolvimento</span>
+                        <h3>Configurando VSCode</h3>
+                        <span><b>By</b> Fabio Tetsuo</span>
+                        <p>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p>
+                        <span>22 Agosto 2022</span>
+                    </div>
                 </div>
 
-                <div class="recent-posts-itens">
-                    <img src="" alt="">
-                    <span></span>
-                    <h3></h3>
-                    <span></span>
-                    <p></p>
-                    <span></span>
+                <div class="card">
+                    <img src="./assets/img/banner image (3).png" alt="">
+                    <div class="card-details">
+                        <span>produtividade</span>
+                        <h3>2 monitores ou 1 ultrawide?</h3>
+                        <span><b>By</b> Fulano da Silva</span>
+                        <p>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p>
+                        <span>22 Agosto 2022</span>
+                    </div>
                 </div>
             </article>
-
-            <div class="categories">
-                <ul>
-                    <li><span>(1)</span></li>
-                    <li><span>(2)</span></li>
-                    <li><span>(3)</span></li>
-                    <li><span>(4)</span></li>
-                </ul>
-            </div>
-
         </section>
     </main>
+    
+    <aside class="container">
+        <article id="popular-posts ">
+            <h2>Posts populares</h2>
+            <div class="popular-cards">
+                <img src="./assets/img/image article.png" alt="">
+                <div>
+                    <h3>Desevolvimento atual</h3>
+                    <span>22 Agosto 2022</span>
+                </div>
+            </div>
+            <div class="popular-cards">
+                <img src="./assets/img/image article (1).png" alt="">
+                <div>
+                    <h3>GitLab vs GitHub</h3>
+                    <span>22 Agosto 2022</span>
+                </div>
+            </div>
+            <div class="popular-cards">
+                <img src="./assets/img/image article (2).png" alt="">
+                <div>
+                    <h3>Café atrapalha</h3>
+                    <span>22 Agosto 2022</span>
+                </div>
+            </div>
+        </article>
+        <div class="categories">
+            <h2>Categorias</h2>
+            <ul>
+                <li>> saude<span>(1)</span></li>
+                <li>> desenvolvimento<span>(2)</span></li>
+                <li>> produtividade<span>(3)</span></li>
+                <li>> opiniao<span>(4)</span></li>
+            </ul>
+        </div>
+    </aside>
+
     <footer class="container">
 
     </footer>  
