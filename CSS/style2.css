@@ -41,6 +41,16 @@ aside{
     width: 30vw;
 }
 
+
+footer{
+    background-color: #02A28F;
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem 0;
+}
+
 .container{
     padding: 3rem 8.7rem;
     display: grid;
@@ -79,7 +89,6 @@ aside{
 .recent-posts-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
     gap: .8rem;
 }
 
