@@ -12,15 +12,102 @@ body{
 
 header{
     background-color: #02A28F;
-    color: #FFF;
+    
     padding: 1rem 10rem;
 }
 
 h1{
+    color: #FFF;
     font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2{
+    color: #FFF;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .container{
     padding: 3rem 8.7rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-columns: auto;
+}
+
+img{
+    width: 46.5rem;
+    text-align: left;
+}
+
+.article{
+    width: 46.5rem;
+}
+
+.article > div{
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    color: #FFF;
+    background-color: #02A28F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.recent-posts-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1.5rem;
+}
+
+.post-1{
+    grid-area: 2/1;
+}
+
+.post-2{
+    grid-area: 1/2;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 31rem;
+    width: 22.5rem;
+    background-color: #FFF;
+    border-radius: 30px ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0.5rem 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.card > img {
+    object-fit: cover;
+    height:  50%;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.card-details{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: left;
+}
+
+.card-details > span{
+    margin-top: .4rem;
+    color: #616161;
+    font-weight: 400;
+}
+
+.card-details > span:first-child{
+    font-size: .9rem;
+    color: #02A28F;
 }
