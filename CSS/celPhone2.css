@@ -1,0 +1,50 @@
+@media only screen and (max-width:767px) {
+    .container{
+        grid-template-columns: 1fr;
+        padding: 1rem 2rem;
+    }
+
+    .recent-posts-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .post-1{
+        grid-area: auto;
+    }
+
+    .post-2{
+        grid-area: auto;
+    }
+
+    .article{
+        width: 80vw;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .aside{
+        width: 100vw;
+    }
+
+    .popular-cards{
+        width: 80vw;
+    }
+
+    .categories{
+        width: 80vw;
+    }
+
+    .title-popular{
+        width: 80vw;
+    }
+
+    .initial-image > img{
+        width: 95%;
+    }
+
+   
+    
+}

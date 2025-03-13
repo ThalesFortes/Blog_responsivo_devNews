@@ -60,4 +60,8 @@
     .bold{
         font-size: .8rem;
     }
+
+    .title-popular{
+        margin-top: 1rem;
+    }
 }
