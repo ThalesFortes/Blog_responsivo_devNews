@@ -52,7 +52,7 @@ footer{
 }
 
 .container{
-    padding: 3rem 8.7rem;
+    padding: 3rem 5rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-auto-columns: auto;
@@ -61,14 +61,13 @@ footer{
 
 .initial-image{
     height: 34.7rem;
-    width: 50vw;
 }
 
 .initial-image > img{
     width: 100%;
     text-align: left;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .article{
