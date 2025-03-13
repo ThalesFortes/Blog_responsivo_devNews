@@ -19,5 +19,5 @@
 
 ## Deploy
 
-Acesse o projeto em [site](url) para visualizar
+Acesse o projeto em [site](https://blogresponsive.netlify.app/) para visualizar
 
