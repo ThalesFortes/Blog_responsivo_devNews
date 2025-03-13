@@ -7,6 +7,14 @@
         padding: 1rem 1rem;
     }
 
+    
+    
+    .initial-image > div > h2{
+        font-size: 1.5rem;
+        margin: .5rem 0;
+    }
+    
+
     .container{
         grid-template-columns: 1fr;
         padding: 1rem 2rem;
