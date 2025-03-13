@@ -88,9 +88,21 @@ footer{
 .recent-posts-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
     gap: .8rem;
 }
 
+.recent-posts-container > div{
+    margin-top:.8rem ;
+}
+
+.post-1{
+    grid-area: 1/2;
+}
+
+.post-2{
+    grid-area: 2/1;
+}
 
 .card{
     display: flex;
@@ -100,12 +112,12 @@ footer{
     background-color: #FFF;
     border-radius: 30px ;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 0.5rem 1.5rem;
-    margin-top: 1.5rem;
+   
 }
 
 .card > img {
     object-fit: cover;
-    height:  12rem;
+    height:  fit-content;
     width: 100%;
     border-radius: 30px 30px 0 0;
 }
@@ -116,6 +128,7 @@ footer{
     flex-direction: column;
     gap: .5rem;
     text-align: left;
+    height: fit-content;
 }
 
 .card-details > span{
