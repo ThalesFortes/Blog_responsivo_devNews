@@ -1,4 +1,12 @@
 @media only screen and (max-width:767px) {
+    h1{
+        font-size: 1,5rem;
+    }
+
+    header{
+        padding: 1rem 1rem;
+    }
+
     .container{
         grid-template-columns: 1fr;
         padding: 1rem 2rem;
@@ -35,6 +43,12 @@
 
     .categories{
         width: 80vw;
+    }
+
+    .popular-details > h3{
+        color: #000;
+        font-size: .8rem;
+        font-weight: 700;
     }
 
     .title-popular{
