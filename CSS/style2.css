@@ -6,9 +6,7 @@
     font-size: 16px;
 }
 
-body{
-    width: 100vw;
-}
+
 
 header{
     background-color: #02A28F;
@@ -26,6 +24,18 @@ h2{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+
+h3{
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+p{
+    color: #000;
+    font-size: .9rem;
+    font-weight: 400;
 }
 
 .container{
@@ -54,11 +64,6 @@ img{
     justify-content: space-between;
 }
 
-
-
-
-
-
 .recent-posts-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -66,18 +71,11 @@ img{
     gap: 1.5rem;
 }
 
-.post-1{
-    grid-area: 2/1;
-}
-
-.post-2{
-    grid-area: 1/2;
-}
 
 .card{
     display: flex;
     flex-direction: column;
-    height: 31rem;
+    height: 27rem;
     width: 22.5rem;
     background-color: #FFF;
     border-radius: 30px ;
@@ -87,14 +85,13 @@ img{
 
 .card > img {
     object-fit: cover;
-    height:  50%;
+    height:  12rem;
     width: 100%;
     border-radius: 30px 30px 0 0;
 }
 
 .card-details{
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -102,9 +99,9 @@ img{
 }
 
 .card-details > span{
-    margin-top: .4rem;
     color: #616161;
-    font-weight: 400;
+    font-weight: 400;   
+    font-size: .9rem;
 }
 
 .card-details > span:first-child{
