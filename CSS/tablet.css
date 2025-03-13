@@ -1,0 +1,63 @@
+@media only screen and (min-width:768px) and (max-width:1023px ) {
+        
+    h1{
+        font-size: 2rem;;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    h3{
+        font-size: .8rem;
+    }
+
+    p{
+        font-size: .8rem;
+    }
+
+    .container{
+        gap: 1rem;
+    }
+
+    .popular-cards{
+        flex-direction: column;  
+    }
+
+    .popular-cards > img{
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        height: 100%;
+        border-radius: 10px;
+        margin-bottom: .5rem;
+    }
+
+    .article{
+        width: 47vw;
+    }
+
+    .card{
+        width: 22vw;
+        height: 25rem;
+    }
+
+    .card-details > h3{
+        font-size:.9rem ;
+    }
+    
+    .card-details > span{
+        color: #616161;
+        font-weight: 400;   
+        font-size: .8rem;
+    }
+    
+    .card-details > span:first-child{
+        font-size: .9rem;
+        color: #02A28F;
+    }
+    
+    .bold{
+        font-size: .8rem;
+    }
+}
