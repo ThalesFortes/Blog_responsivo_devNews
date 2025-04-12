@@ -1,23 +1,36 @@
-# Blog Responsivo
+<h1 align="center" style="font-weight: bold;">Blog Responsivo de Dev 💻</h1>
 
-- Um blog de noticias responsivo e adaptado para celulares ate monitores ultrawides
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+</p>
 
-## Utilizado
+<p align="center">
+    <b>- A responsive news blog adapted for mobiles to ultrawide monitors</b>
+    <b>- Semantic Tags
+       - Units of measurement such as rem, %, and (vh , vw)
+       - Responsive Components with flexbox and gridbox
+    </b>
+</p>
 
-- Tags Semânticas
-- Unidades de medidas como rem, % e (vh , vw)
-- Componentes Responsivos com flexbox e gridbox
+<p align="center">
+     <a href="https://blogresponsive.netlify.app/">📱 Visit this Project</a>
+</p>
 
-## Visualização
+<h2 id="layout">🎨 Layout</h2>
 
-- Basta baixar e clicar no index ou acessar o site
- 
-## Tecnologias
+<p align="center">
+      <img src="./images/print1.png" alt="Imagem da pagina demonstrando como ela e" width="400px">
+    <img src="./images/print2.png" alt="Imagem da pagina demonstrando como ela e" width="400px">
+</p>
+
+<h2 id="technologies">💻 Technologies</h2>
 
 - HTML5
 - CSS3
+- NETLIFY
 
-## Deploy
+<h2 id="started">🚀 Getting started</h2>
 
-Acesse o projeto em [site](https://blogresponsive.netlify.app/) para visualizar
+- Just download the project with its assets and run it with liveserve or just by opening the html document
 
