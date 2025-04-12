@@ -6,10 +6,10 @@
 </p>
 
 <p align="center">
-    <b>- A responsive news blog adapted for mobiles to ultrawide monitors</b>
-    <b>- Semantic Tags
-       - Units of measurement such as rem, %, and (vh , vw)
-       - Responsive Components with flexbox and gridbox
+    <b>-A responsive news blog adapted for mobiles to ultrawide monitors.</b>
+    <b>Semantic Tags;
+       Units of measurement such as rem, %, and (vh , vw);
+       Responsive Components with flexbox and gridbox;
     </b>
 </p>
 
