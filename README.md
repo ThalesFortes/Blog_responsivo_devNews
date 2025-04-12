@@ -20,7 +20,7 @@
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-      <img src="./assets/img/bsection.png" alt="Imagem da pagina demonstrando como ela e" width="400px">
+      <img src="./assets/img/section.png" alt="Imagem da pagina demonstrando como ela e" width="400px">
     <img src="./assets/img/image.png" alt="Imagem da pagina demonstrando como ela e" width="400px">
 </p>
 
